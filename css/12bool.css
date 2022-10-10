@@ -8,6 +8,19 @@
     text-align: center;
     border: 1px solid white;
 }
+
+.box-inside {
+    background-color: lightgreen;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 1px solid rgb(45, 190, 238);
+}
+
+.row-inside {
+    display: flex;
+}
+
 /* ----------------
     RESET
     ------------- */
@@ -17,6 +30,9 @@
     margin: 0;
 }
 
+body {
+    font-size: 14px;
+}
 
 /* --------------
     CONTAINERS 
